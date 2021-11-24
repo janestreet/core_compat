@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml" {>= "4.08.0"}
-  "core"
-  "core_kernel"
+  "core" {>= "v0.14" & < "v0.15"}
+  "core_kernel" {>= "v0.14" & < "v0.15"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Compatibility for core 0.14"
