@@ -1,6 +1,6 @@
 (library (name core_compat) (modules core_compat) (public_name core_compat)
- (libraries core_kernel.core core.core_unix core.command_unix core.date_unix
-  core.filename_unix core.signal_unix core.sys_unix core.core_thread
-  core.time_unix core.time_ns_unix core_kernel.version_util core.interval_lib
-  core.time_interface)
+ (libraries core core_unix core_unix.command_unix core_unix.date_unix
+  core_unix.filename_unix core_unix.signal_unix core_unix.sys_unix
+  core_unix.core_thread core_unix.time_unix core_unix.time_ns_unix
+  core_kernel.version_util core_unix.interval_lib core_unix.time_interface)
  (preprocess no_preprocessing))
