@@ -1,5 +1,5 @@
 (library (name core_compat) (modules core_compat) (public_name core_compat)
- (libraries core core_unix core_unix.command_unix core_unix.date_unix
+ (libraries core_unix core_unix.command_unix core_unix.date_unix
   core_unix.filename_unix core_unix.signal_unix core_unix.sys_unix
   core_unix.core_thread core_unix.time_unix core_unix.time_ns_unix
   core_kernel.version_util core_unix.interval_lib core_unix.time_interface)
